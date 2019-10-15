@@ -1,0 +1,357 @@
+Precio final: 2.52
+Nuevo precio sin recargo para 610: y pedido 1245, Recargo: 15
+Nuevo precio sin recargo ni iva para 610: Precio inicial: 1.99, tipoIVA: 10.00, recargo: 15
+
+Precio final: 2.05
+Nuevo precio sin recargo para 782: y pedido 1247, Recargo: 15
+Nuevo precio sin recargo ni iva para 782: Precio inicial: 1.62, tipoIVA: 10.00, recargo: 15
+
+Precio final: 3.00
+Nuevo precio sin recargo para 28: y pedido 1256, Recargo: 23
+Nuevo precio sin recargo ni iva para 28: Precio inicial: 2.35, tipoIVA: 4.00, recargo: 23
+
+Precio final: 1.69
+Nuevo precio sin recargo para 1059: y pedido 1257, Recargo: 21
+Nuevo precio sin recargo ni iva para 1059: Precio inicial: 1.34, tipoIVA: 4.00, recargo: 21
+
+Precio final: 2.75
+Nuevo precio sin recargo para 1086: y pedido 1264, Recargo: 25
+Nuevo precio sin recargo ni iva para 1086: Precio inicial: 2, tipoIVA: 10.00, recargo: 25
+
+Precio final: 14.00
+Nuevo precio sin recargo para 65: y pedido 1270, Recargo: 15
+Nuevo precio sin recargo ni iva para 65: Precio inicial: 11.71, tipoIVA: 4.00, recargo: 15
+
+Precio final: 3.40
+Nuevo precio sin recargo para 467: y pedido 1270, Recargo: 15
+Nuevo precio sin recargo ni iva para 467: Precio inicial: 2.69, tipoIVA: 10.00, recargo: 15
+
+Precio final: 8.00
+Nuevo precio sin recargo para 536: y pedido 1270, Recargo: 10
+Nuevo precio sin recargo ni iva para 536: Precio inicial: 6.61, tipoIVA: 10.00, recargo: 10
+
+Precio final: 35.72
+Nuevo precio sin recargo para 537: y pedido 1270, Recargo: 10
+Nuevo precio sin recargo ni iva para 537: Precio inicial: 29.52, tipoIVA: 10.00, recargo: 10
+
+Precio final: 5.35
+Nuevo precio sin recargo para 577: y pedido 1274, Recargo: 15
+Nuevo precio sin recargo ni iva para 577: Precio inicial: 3.84, tipoIVA: 21.00, recargo: 15
+
+Precio final: 3.35
+Nuevo precio sin recargo para 92: y pedido 1280, Recargo: 20
+Nuevo precio sin recargo ni iva para 92: Precio inicial: 2.68, tipoIVA: 4.00, recargo: 20
+
+Precio final: 2.16
+Nuevo precio sin recargo para 151: y pedido 1280, Recargo: 20
+Nuevo precio sin recargo ni iva para 151: Precio inicial: 1.73, tipoIVA: 4.00, recargo: 20
+
+Precio final: 35.72
+Nuevo precio sin recargo para 537: y pedido 1280, Recargo: 10
+Nuevo precio sin recargo ni iva para 537: Precio inicial: 29.52, tipoIVA: 10.00, recargo: 10
+
+Precio final: 2.52
+Nuevo precio sin recargo para 606: y pedido 1280, Recargo: 15
+Nuevo precio sin recargo ni iva para 606: Precio inicial: 1.99, tipoIVA: 10.00, recargo: 15
+
+Precio final: 5.61
+Nuevo precio sin recargo para 857: y pedido 1283, Recargo: 15
+Nuevo precio sin recargo ni iva para 857: Precio inicial: 4.43, tipoIVA: 10.00, recargo: 15
+
+Precio final: 14.26
+Nuevo precio sin recargo para 71: y pedido 1287, Recargo: 15
+Nuevo precio sin recargo ni iva para 71: Precio inicial: 11.27, tipoIVA: 10.00, recargo: 15
+
+Precio final: 1.20
+Nuevo precio sin recargo para 1152: y pedido 1287, Recargo: 20
+Nuevo precio sin recargo ni iva para 1152: Precio inicial: 0.91, tipoIVA: 10.00, recargo: 20
+
+Precio final: 16.80
+Nuevo precio sin recargo para 897: y pedido 1292, Recargo: 20
+Nuevo precio sin recargo ni iva para 897: Precio inicial: 12.73, tipoIVA: 10.00, recargo: 20
+
+Precio final: 1.60
+Nuevo precio sin recargo para 35: y pedido 1293, Recargo: 23
+Nuevo precio sin recargo ni iva para 35: Precio inicial: 1.18, tipoIVA: 10.00, recargo: 23
+
+Precio final: 1.60
+Nuevo precio sin recargo para 37: y pedido 1293, Recargo: 23
+Nuevo precio sin recargo ni iva para 37: Precio inicial: 1.18, tipoIVA: 10.00, recargo: 23
+
+Precio final: 6.43
+Nuevo precio sin recargo para 61: y pedido 1293, Recargo: 15
+Nuevo precio sin recargo ni iva para 61: Precio inicial: 5.38, tipoIVA: 4.00, recargo: 15
+
+Precio final: 7.75
+Nuevo precio sin recargo para 63: y pedido 1293, Recargo: 15
+Nuevo precio sin recargo ni iva para 63: Precio inicial: 6.48, tipoIVA: 4.00, recargo: 15
+
+Precio final: 1.52
+Nuevo precio sin recargo para 315: y pedido 1293, Recargo: 20
+Nuevo precio sin recargo ni iva para 315: Precio inicial: 1.15, tipoIVA: 10.00, recargo: 20
+
+Precio final: 20.13
+Nuevo precio sin recargo para 986: y pedido 1302, Recargo: 10
+Nuevo precio sin recargo ni iva para 986: Precio inicial: 16.64, tipoIVA: 10.00, recargo: 10
+
+Precio final: 3.35
+Nuevo precio sin recargo para 92: y pedido 1305, Recargo: 20
+Nuevo precio sin recargo ni iva para 92: Precio inicial: 2.68, tipoIVA: 4.00, recargo: 20
+
+Precio final: 2.50
+Nuevo precio sin recargo para 124: y pedido 1305, Recargo: 0.010000000000005
+Nuevo precio sin recargo ni iva para 124: Precio inicial: 2.4, tipoIVA: 4.00, recargo: 0.010000000000005
+
+Precio final: 1.98
+Nuevo precio sin recargo para 310: y pedido 1307, Recargo: 20
+Nuevo precio sin recargo ni iva para 310: Precio inicial: 1.5, tipoIVA: 10.00, recargo: 20
+
+Precio final: 1.69
+Nuevo precio sin recargo para 1059: y pedido 1308, Recargo: 21
+Nuevo precio sin recargo ni iva para 1059: Precio inicial: 1.34, tipoIVA: 4.00, recargo: 21
+
+Precio final: 1.96
+Nuevo precio sin recargo para 332: y pedido 1313, Recargo: 20
+Nuevo precio sin recargo ni iva para 332: Precio inicial: 1.48, tipoIVA: 10.00, recargo: 20
+
+Precio final: 12.10
+Nuevo precio sin recargo para 1041: y pedido 1317, Recargo: 0.010000000000005
+Nuevo precio sin recargo ni iva para 1041: Precio inicial: 11, tipoIVA: 10.00, recargo: 0.010000000000005
+
+Precio final: 16.00
+Nuevo precio sin recargo para 1165: y pedido 1318, Recargo: 14.3
+Nuevo precio sin recargo ni iva para 1165: Precio inicial: 13.86, tipoIVA: 1.00, recargo: 14.3
+
+Precio final: 3.90
+Nuevo precio sin recargo para 55: y pedido 1327, Recargo: 23
+Nuevo precio sin recargo ni iva para 55: Precio inicial: 2.88, tipoIVA: 10.00, recargo: 23
+
+Precio final: 20.13
+Nuevo precio sin recargo para 986: y pedido 1327, Recargo: 10
+Nuevo precio sin recargo ni iva para 986: Precio inicial: 16.64, tipoIVA: 10.00, recargo: 10
+
+Precio final: 0.00
+Nuevo precio sin recargo para 1150: y pedido 1336, Recargo: 0
+Nuevo precio sin recargo ni iva para 1150: Precio inicial: 0, tipoIVA: 21.00, recargo: 0
+
+Precio final: 2.00
+Nuevo precio sin recargo para 1082: y pedido 1341, Recargo: 0
+Nuevo precio sin recargo ni iva para 1082: Precio inicial: 1.65, tipoIVA: 21.00, recargo: 0
+
+Precio final: 0.00
+Nuevo precio sin recargo para 1151: y pedido 1348, Recargo: 0
+Nuevo precio sin recargo ni iva para 1151: Precio inicial: 0, tipoIVA: 21.00, recargo: 0
+
+Precio final: 0.10
+Nuevo precio sin recargo para 1050: y pedido 1350, Recargo: 0
+Nuevo precio sin recargo ni iva para 1050: Precio inicial: 0.09, tipoIVA: 10.00, recargo: 0
+
+Precio final: 0.10
+Nuevo precio sin recargo para 1050: y pedido 1357, Recargo: 0
+Nuevo precio sin recargo ni iva para 1050: Precio inicial: 0.09, tipoIVA: 10.00, recargo: 0
+
+Precio final: 3.64
+Nuevo precio sin recargo para 194: y pedido 1360, Recargo: 20
+Nuevo precio sin recargo ni iva para 194: Precio inicial: 2.76, tipoIVA: 10.00, recargo: 20
+
+Precio final: 0.10
+Nuevo precio sin recargo para 1050: y pedido 1360, Recargo: 0
+Nuevo precio sin recargo ni iva para 1050: Precio inicial: 0.09, tipoIVA: 10.00, recargo: 0
+
+Precio final: 0.00
+Nuevo precio sin recargo para 1151: y pedido 1375, Recargo: 0
+Nuevo precio sin recargo ni iva para 1151: Precio inicial: 0, tipoIVA: 21.00, recargo: 0
+
+Precio final: 2.58
+Nuevo precio sin recargo para 116: y pedido 1379, Recargo: 25
+Nuevo precio sin recargo ni iva para 116: Precio inicial: 1.98, tipoIVA: 4.00, recargo: 25
+
+Precio final: 1.69
+Nuevo precio sin recargo para 145: y pedido 1379, Recargo: 35
+Nuevo precio sin recargo ni iva para 145: Precio inicial: 1.2, tipoIVA: 4.00, recargo: 35
+
+Precio final: 3.74
+Nuevo precio sin recargo para 823: y pedido 1379, Recargo: 20
+Nuevo precio sin recargo ni iva para 823: Precio inicial: 3, tipoIVA: 4.00, recargo: 20
+
+Precio final: 2.75
+Nuevo precio sin recargo para 973: y pedido 1379, Recargo: 20
+Nuevo precio sin recargo ni iva para 973: Precio inicial: 2.2, tipoIVA: 4.00, recargo: 20
+
+Precio final: 3.43
+Nuevo precio sin recargo para 125: y pedido 1394, Recargo: 0.010000000000005
+Nuevo precio sin recargo ni iva para 125: Precio inicial: 3.3, tipoIVA: 4.00, recargo: 0.010000000000005
+
+Precio final: 3.67
+Nuevo precio sin recargo para 968: y pedido 1397, Recargo: 23
+Nuevo precio sin recargo ni iva para 968: Precio inicial: 2.71, tipoIVA: 10.00, recargo: 23
+
+Precio final: 3.67
+Nuevo precio sin recargo para 238: y pedido 1432, Recargo: 23
+Nuevo precio sin recargo ni iva para 238: Precio inicial: 2.71, tipoIVA: 10.00, recargo: 23
+
+Precio final: 1.26
+Nuevo precio sin recargo para 106: y pedido 1453, Recargo: 34
+Nuevo precio sin recargo ni iva para 106: Precio inicial: 0.9, tipoIVA: 4.00, recargo: 34
+
+Precio final: 1.19
+Nuevo precio sin recargo para 729: y pedido 1462, Recargo: 43
+Nuevo precio sin recargo ni iva para 729: Precio inicial: 0.8, tipoIVA: 4.00, recargo: 43
+
+Precio final: 1.05
+Nuevo precio sin recargo para 1153: y pedido 1469, Recargo: 10
+Nuevo precio sin recargo ni iva para 1153: Precio inicial: 0.87, tipoIVA: 10.00, recargo: 10
+
+Precio final: 3.74
+Nuevo precio sin recargo para 823: y pedido 1471, Recargo: 20
+Nuevo precio sin recargo ni iva para 823: Precio inicial: 3, tipoIVA: 4.00, recargo: 20
+
+Precio final: 12.80
+Nuevo precio sin recargo para 1174: y pedido 1474, Recargo: 15
+Nuevo precio sin recargo ni iva para 1174: Precio inicial: 10.7, tipoIVA: 4.00, recargo: 15
+
+Precio final: 2.37
+Nuevo precio sin recargo para 1301: y pedido 1474, Recargo: 15
+Nuevo precio sin recargo ni iva para 1301: Precio inicial: 1.87, tipoIVA: 10.00, recargo: 15
+
+Precio final: 1.87
+Nuevo precio sin recargo para 165: y pedido 1483, Recargo: 20
+Nuevo precio sin recargo ni iva para 165: Precio inicial: 1.5, tipoIVA: 4.00, recargo: 20
+
+Precio final: 4.26
+Nuevo precio sin recargo para 142: y pedido 1486, Recargo: 20
+Nuevo precio sin recargo ni iva para 142: Precio inicial: 3.41, tipoIVA: 4.00, recargo: 20
+
+Precio final: 2.50
+Nuevo precio sin recargo para 959: y pedido 1501, Recargo: 20
+Nuevo precio sin recargo ni iva para 959: Precio inicial: 2, tipoIVA: 4.00, recargo: 20
+
+Precio final: 0.00
+Nuevo precio sin recargo para 1018: y pedido 1513, Recargo: 0
+Nuevo precio sin recargo ni iva para 1018: Precio inicial: 0, tipoIVA: 21.00, recargo: 0
+
+Precio final: 3.09
+Nuevo precio sin recargo para 282: y pedido 1519, Recargo: 20
+Nuevo precio sin recargo ni iva para 282: Precio inicial: 2.34, tipoIVA: 10.00, recargo: 20
+
+Precio final: 5.40
+Nuevo precio sin recargo para 1157: y pedido 1519, Recargo: 0.010000000000005
+Nuevo precio sin recargo ni iva para 1157: Precio inicial: 5.19, tipoIVA: 4.00, recargo: 0.010000000000005
+
+Precio final: 3.00
+Nuevo precio sin recargo para 1158: y pedido 1519, Recargo: 0.010000000000005
+Nuevo precio sin recargo ni iva para 1158: Precio inicial: 2.88, tipoIVA: 4.00, recargo: 0.010000000000005
+
+Precio final: 1.66
+Nuevo precio sin recargo para 98: y pedido 1520, Recargo: 23
+Nuevo precio sin recargo ni iva para 98: Precio inicial: 1.3, tipoIVA: 4.00, recargo: 23
+
+Precio final: 1.26
+Nuevo precio sin recargo para 106: y pedido 1520, Recargo: 34
+Nuevo precio sin recargo ni iva para 106: Precio inicial: 0.9, tipoIVA: 4.00, recargo: 34
+
+Precio final: 2.09
+Nuevo precio sin recargo para 109: y pedido 1520, Recargo: 18
+Nuevo precio sin recargo ni iva para 109: Precio inicial: 1.7, tipoIVA: 4.00, recargo: 18
+
+Precio final: 2.62
+Nuevo precio sin recargo para 122: y pedido 1520, Recargo: 20
+Nuevo precio sin recargo ni iva para 122: Precio inicial: 2.1, tipoIVA: 4.00, recargo: 20
+
+Precio final: 1.69
+Nuevo precio sin recargo para 145: y pedido 1520, Recargo: 35
+Nuevo precio sin recargo ni iva para 145: Precio inicial: 1.2, tipoIVA: 4.00, recargo: 35
+
+Precio final: 2.19
+Nuevo precio sin recargo para 163: y pedido 1520, Recargo: 17
+Nuevo precio sin recargo ni iva para 163: Precio inicial: 1.8, tipoIVA: 4.00, recargo: 17
+
+Precio final: 1.95
+Nuevo precio sin recargo para 170: y pedido 1520, Recargo: 25
+Nuevo precio sin recargo ni iva para 170: Precio inicial: 1.5, tipoIVA: 4.00, recargo: 25
+
+Precio final: 3.47
+Nuevo precio sin recargo para 1094: y pedido 1520, Recargo: 0.010000000000005
+Nuevo precio sin recargo ni iva para 1094: Precio inicial: 3.34, tipoIVA: 4.00, recargo: 0.010000000000005
+
+Precio final: 5.00
+Nuevo precio sin recargo para 1017: y pedido 1521, Recargo: 0
+Nuevo precio sin recargo ni iva para 1017: Precio inicial: 4.13, tipoIVA: 21.00, recargo: 0
+
+Precio final: 3.00
+Nuevo precio sin recargo para 1098: y pedido 1523, Recargo: 20
+Nuevo precio sin recargo ni iva para 1098: Precio inicial: 2.4, tipoIVA: 4.00, recargo: 20
+
+Precio final: 2.50
+Nuevo precio sin recargo para 1347: y pedido 1523, Recargo: 25
+Nuevo precio sin recargo ni iva para 1347: Precio inicial: 1.92, tipoIVA: 4.00, recargo: 25
+
+Precio final: 2.87
+Nuevo precio sin recargo para 1037: y pedido 1525, Recargo: 22
+Nuevo precio sin recargo ni iva para 1037: Precio inicial: 2.26, tipoIVA: 4.00, recargo: 22
+
+Precio final: 11.50
+Nuevo precio sin recargo para 842: y pedido 1533, Recargo: 10
+Nuevo precio sin recargo ni iva para 842: Precio inicial: 9.5, tipoIVA: 10.00, recargo: 10
+
+Precio final: 2.15
+Nuevo precio sin recargo para 933: y pedido 1536, Recargo: 25
+Nuevo precio sin recargo ni iva para 933: Precio inicial: 1.65, tipoIVA: 4.00, recargo: 25
+
+Precio final: 2.50
+Nuevo precio sin recargo para 1347: y pedido 1536, Recargo: 25
+Nuevo precio sin recargo ni iva para 1347: Precio inicial: 1.92, tipoIVA: 4.00, recargo: 25
+
+Precio final: 2.72
+Nuevo precio sin recargo para 1: y pedido 1538, Recargo: 23
+Nuevo precio sin recargo ni iva para 1: Precio inicial: 2.13, tipoIVA: 4.00, recargo: 23
+
+Precio final: 0.10
+Nuevo precio sin recargo para 1050: y pedido 1538, Recargo: 0
+Nuevo precio sin recargo ni iva para 1050: Precio inicial: 0.09, tipoIVA: 10.00, recargo: 0
+
+Precio final: 2.50
+Nuevo precio sin recargo para 1347: y pedido 1540, Recargo: 25
+Nuevo precio sin recargo ni iva para 1347: Precio inicial: 1.92, tipoIVA: 4.00, recargo: 25
+
+Precio final: 2.50
+Nuevo precio sin recargo para 1347: y pedido 1550, Recargo: 25
+Nuevo precio sin recargo ni iva para 1347: Precio inicial: 1.92, tipoIVA: 4.00, recargo: 25
+
+Precio final: 2.50
+Nuevo precio sin recargo para 1347: y pedido 1564, Recargo: 25
+Nuevo precio sin recargo ni iva para 1347: Precio inicial: 1.92, tipoIVA: 4.00, recargo: 25
+
+Precio final: 2.50
+Nuevo precio sin recargo para 1347: y pedido 1565, Recargo: 25
+Nuevo precio sin recargo ni iva para 1347: Precio inicial: 1.92, tipoIVA: 4.00, recargo: 25
+
+Precio final: 2.00
+Nuevo precio sin recargo para 98: y pedido 1579, Recargo: 23
+Nuevo precio sin recargo ni iva para 98: Precio inicial: 1.56, tipoIVA: 4.00, recargo: 23
+
+Precio final: 1.82
+Nuevo precio sin recargo para 156: y pedido 1579, Recargo: 25
+Nuevo precio sin recargo ni iva para 156: Precio inicial: 1.4, tipoIVA: 4.00, recargo: 25
+
+Precio final: 3.50
+Nuevo precio sin recargo para 1354: y pedido 1594, Recargo: 0.010000000000005
+Nuevo precio sin recargo ni iva para 1354: Precio inicial: 3.18, tipoIVA: 10.00, recargo: 0.010000000000005
+
+Precio final: 2.93
+Nuevo precio sin recargo para 925: y pedido 1610, Recargo: 25
+Nuevo precio sin recargo ni iva para 925: Precio inicial: 2.25, tipoIVA: 4.00, recargo: 25
+
+Precio final: 6.43
+Nuevo precio sin recargo para 61: y pedido 1612, Recargo: 15
+Nuevo precio sin recargo ni iva para 61: Precio inicial: 5.38, tipoIVA: 4.00, recargo: 15
+
+Precio final: 7.75
+Nuevo precio sin recargo para 63: y pedido 1612, Recargo: 15
+Nuevo precio sin recargo ni iva para 63: Precio inicial: 6.48, tipoIVA: 4.00, recargo: 15
+
+Precio final: 0.00
+Nuevo precio sin recargo para 1029: y pedido 1615, Recargo: 0
+Nuevo precio sin recargo ni iva para 1029: Precio inicial: 0, tipoIVA: 21.00, recargo: 0
+
+CORRECTO

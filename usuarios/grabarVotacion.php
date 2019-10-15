@@ -1,0 +1,1 @@
+<?php include_once ("../includes/funciones.inc.php");// Obtenemos el id del campo opencms a valorar$idVot = @$_GET["id"];$valor = @$_GET["valor"];// Obtenemos la votacionif (isset($idVot) && isset($valor) && $valor>0) {	consulta("UPDATE VOTACIONES SET VOTOS = VOTOS + 1, VALOR = (VALOR + ". $valor. ") where id='$idVot'");}?><?=$valor?>

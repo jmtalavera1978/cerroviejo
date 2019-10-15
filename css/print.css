@@ -1,0 +1,778 @@
+@Charset "utf-8";
+
+img {
+  max-width: 100%;
+}
+
+#algo-iframe {
+  margin:0;
+  padding:0;
+  width:100%;
+  background-color: white;
+  border-left:1px solid #888;
+  border-right:1px solid #888;
+  border-bottom:1px solid #888;
+}
+
+
+#pf-app {
+  width:860px;
+  margin:33px auto;
+  background:none !important;
+  text-align:left;
+  position: relative;
+  font-family: arial, sans-serif;
+  font-size:13px;
+}
+
+.pf-app {
+  margin: 0;
+}
+#pf-body .clearfloat{
+  clear: both;
+}
+.pf-app form{
+  margin: 0;
+  padding: 0;
+}
+
+#pf-app a, #pf-app select, #pf-app input {
+  outline:none;
+}
+
+.pf-hidden { /* This is used when user clicks remove images */
+  display: none !important;
+}
+
+a.printfriendly, div.printfriendly a {
+  display: none;
+}
+.pf-sprite{
+  background: url('/assets/client/pf-app-sprite.png') no-repeat;
+}
+
+.pf-app a{
+  color: #404040;
+  text-shadow: 0px 0px 2px #fff; /* FF3.5+, Opera 9+, Saf1+, Chrome */
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.pf-app a:hover, #pf-app .pf-toolbar label:hover{
+  color:#000;
+}
+
+.pf-app .pf-button {
+  display: inline-block;
+  margin: 0;
+  cursor:pointer;
+  color: #6D9F00;
+  text-shadow: 1px 1px 0px #fff; /* FF3.5+, Opera 9+, Saf1+, Chrome */
+  text-decoration:none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 1em 1.5em;
+
+  /* Borders and Radius */
+  -moz-border-radius: 4px;
+  -webkit-border-radius:4px;
+  border-radius: 4px;
+  border-top: 1px solid #c7c7c7;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #959595;
+
+
+  /* Gradient Background */
+  background:#fafafa;
+  background-image:
+    -webkit-gradient(linear, right bottom, right top, color-stop(0, rgba(0, 0, 0, .15)) , /*color-stop(.5, rgba(0, 0, 0, .01)), color-stop(.51, rgba(255, 255, 255, .01)),*/ color-stop(1, rgba(255, 255, 255, .15)));
+
+      /* mozilla example - FF3.6+ */
+      background-image: -moz-linear-gradient(right bottom, rgba(0, 0, 0, .15) 0%, rgba(0, 0, 0, .15) 100%);
+
+      /* IE 5.5 - 7 */
+      filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, StartColorStr=#26FFFFFF, EndColorStr=#26000000);
+
+      /* IE8 uses -ms-filter for whatever reason... */
+      -ms-filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, StartColorStr=#26000000, EndColorStr=#26FFFFFF);
+}
+.pf-app .pf-button:hover{
+  color: #587710;
+  background-color:#fafafa;
+}
+
+/* @end */
+
+/* @group Toolbar */
+.pf-toolbar {
+  height: 49px;
+  width:100%;
+  overflow: hidden;
+
+  /* Borders and Radius */
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius:  4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  border-top: 1px solid #c7c7c7;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #959595;
+
+  /* Gradient Background */
+  background:#fafafa;
+  background-image: -webkit-gradient(linear, right bottom, right top, color-stop(0, rgba(0, 0, 0, .15)) , /*color-stop(.5, rgba(0, 0, 0, .01)), color-stop(.51, rgba(255, 255, 255, .01)),*/ color-stop(1, rgba(255, 255, 255, .15)));
+
+  /* mozilla example - FF3.6+ */
+  background-image: -moz-linear-gradient(right bottom, rgba(0, 0, 0, .15) 0%, rgba(0, 0, 0, .15) 100%);
+
+  /* IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, StartColorStr=#26FFFFFF, EndColorStr=#26000000);
+
+  /* IE8 uses -ms-filter for whatever reason... */
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, StartColorStr=#26000000, EndColorStr=#26FFFFFF);
+
+
+   background-color: #f8f8f8;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#e8e8e8));
+   background-image: -webkit-linear-gradient(top, #f8f8f8, #e8e8e8);
+   background-image:    -moz-linear-gradient(top, #f8f8f8, #e8e8e8);
+   background-image:     -ms-linear-gradient(top, #f8f8f8, #e8e8e8);
+   background-image:      -o-linear-gradient(top, #f8f8f8, #e8e8e8);
+   background-image:         linear-gradient(top, #f8f8f8, #e8e8e8);
+             filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorStr=#26FFFFFF, EndColorStr=#26000000);
+}
+
+.pf-toolbar ul, .pf-toolbar li {
+  margin:0;
+  padding:0;
+  list-style: none;
+  height:49px;
+  float: left;
+}
+
+.pf-toolbar .pf-options{
+    float: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.pf-toolbar .pf-options ul {
+  display: inline-block;
+  float: none;
+}
+
+.pf-toolbar a:hover, .pf-toolbar label:hover{
+  background-color:#e5e4e4;
+  background-color: rgba(0, 0, 0, 0.05);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#11000000,endColorstr=#11000000); /* IE */
+}
+.pf-toolbar a, .pf-toolbar label{
+  display: inline-block;
+  margin:0;
+  height:43px;
+  line-height: 43px;
+  padding: 6px 18px 0;
+  cursor:pointer;
+  color:#404040;
+  text-shadow: 0px 0px 2px #fff; /* FF3.5+, Opera 9+, Saf1+, Chrome */
+}
+
+.pf-toolbar select{
+  font-size: 12px;
+}
+.pf-toolbar .pf-sprite{
+  float: left;
+  margin-right: 4px;
+  height: 36px;
+  margin-top: 4px;
+}
+#w-print {
+  border-right:1px solid #ccc;
+  font-weight:bold;
+}
+#w-print .pf-sprite{
+  background-position: 0px 2px;
+  width: 33px;
+}
+
+#w-pdf {
+  font-variant: small-caps;
+  border-left: 1px solid #fafafa;
+  border-right:1px solid #ccc;
+  font-weight:bold;
+}
+#w-pdf .pf-sprite{
+  background-position: -50px 3px;
+  width: 26px;
+}
+#w-email{
+  border-left:1px solid #fafafa;
+  border-right:1px solid #ccc;
+  font-weight:bold;
+}
+#w-email .pf-sprite{
+  background-position:-100px 2px;
+  width: 30px;
+}
+#txt-size, #remove-images{
+  display: inline-block;
+  height: 39px;
+  margin-left: 6px;
+}
+#w-undo .pf-sprite{
+  background-position:-150px -1px;
+  width: 18px;
+}
+
+#pf-app-close{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  height:39px;
+  width:36px;
+  text-indent:-9999px;
+  padding:4px;
+}
+#pf-app-close .pf-sprite{
+  background-position:-201px -6px;
+  width: 19px;
+  height: 19px;
+  display:block;
+  float: right;
+}
+#pf-app-close span.pf-sprite:hover{
+  background-position:-221px -6px;
+}
+/* @end */
+
+/* @group Dialog Box */
+
+#pf-dialog {
+  position:absolute;
+  z-index:1;
+  top:72px;
+  left:50%;
+  margin-left:-350px;
+  width:700px;
+  padding:8px;
+  display:none;
+  /*background-color: #ddd;*/
+  background-color: rgba(87, 68, 47, 0.075);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#1357442F',EndColorStr='#1357442F'); /* IE6-IE9 */
+}
+
+.pf-dialog {
+  /* BOX Styles */
+  -moz-box-shadow: 1px 1px 2px #aaa;
+  -webkit-box-shadow: 1px 1px 2px #888;
+  box-shadow: 1px 1px 2px #888;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius:5px;
+  background: #fff;
+}
+.pf-dialog-head {
+  padding:24px 32px 24px;
+  position: relative;
+  background-color: #e2e2e2;
+   zoom: 1; /*ie relative position background image fix*/
+   min-height: 100px;
+}
+.pf-dialog-head .iefix{
+  height: 100px;
+}
+.pf-dialog-head h2 {
+  font-size:26px;
+  margin:0;
+}
+
+.pf-dialog p {
+  margin:10px 0 0;
+}
+#dialog-text a, #pf-dialog-text a  {
+  text-decoration: underline;
+}
+
+#pf-d-close-wrap {
+  display:block;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index:10;
+  padding:14px;
+}
+#pf-dialog-close, #dialog-close {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+#pf-d-close-wrap .pf-sprite {
+  background-position: -241px -9px;
+  height: 13px;
+  width: 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#pf-dialog-print{
+  display:none;
+}
+
+#pf-dialog-print .pf-sprite{
+  background-position: 0px -50px;
+  width: 64px;
+  height: 64px;
+  float: left;
+  margin: -8px 18px 0 0;
+  display: inline-block;
+}
+
+#pf-pdf-frame{
+  height: 58px;
+}
+
+.pdf-loading, .pf-app .pdf-loading:hover{
+   color: #b9b9b9!important;
+   border-bottom-color: #ccc;
+   -webkit-box-shadow: inset 1px 1px 1px #d0d0d0, 1px 1px 0px #fff;
+   -moz-box-shadow: inset 1px 1px 1px #d0d0d0, 1px 1px 0px #fff;
+   box-shadow: inset 1px 1px 1px #d0d0d0, 1px 1px 0px #fff;
+   opacity: 1;
+   background: url('/assets/client/ajax-loader.gif') no-repeat 12px 50% #efefef!important;
+   cursor: wait!important;
+   padding-left: 60px;
+ }
+
+.pdf-download{
+  padding:4px 12px 0px 40px;
+  margin-left: -.125em;
+  background: url(/assets/client/lightbox_sprite.png) no-repeat 0 -797px;
+  display: inline-block;
+}
+.pdf-download {
+  display: none;
+}
+
+.pdf-download .pf-sprite{
+  background-position: -300px -1px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+#pf-dialog-ads {
+  display: none;
+  background:#fff;
+  height:320px;
+  overflow: visible;
+}
+/* @end */
+
+/* @group Footer */
+    #pf-ft {
+      display: none;
+    }
+
+    #pf-ft a {
+      font-size: 12px;
+      color: #fff;
+      text-decoration:none;
+      display:block;
+      float:right;
+      padding: .2em .5em;
+      margin: .75em 0;
+      text-shadow: 0px 0px 1px #000;
+    }
+    #pf-ft a:hover{
+      color: #bdc2c8;
+    }
+    .pf-support {
+
+      margin-right: .25em;
+      background-color: #6a6f6f;
+      /* Borders and Radius */
+      -moz-border-radius: 3px;
+      -webkit-border-radius:3px;
+      border-radius: 3px;
+    }
+/* @end */
+
+/* @group Content Hilight */
+
+.hilight {
+  background-color: #f9ffb5;
+  cursor: pointer;
+  position:relative;
+}
+.hilight:before {
+  position:absolute;
+  display: block;
+  top:-28px;
+  font-family: arial, sans-serif;
+  padding:8px 17px 6px;
+  height: 14px;
+  content:"click to delete";
+  background-color: #f9ffb5;
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* @end */
+
+/* @group Content */
+
+/* layout fixes */
+#pf-print-area, div#pf-body /*div#pf-body is needed for pdf*/ {
+    width: auto; /*IE Table 100% fix*/
+}
+/* pdf only */
+.pdf-body{
+  overflow-y: auto; 
+  overflow-x: hidden;  
+  background-color: transparent;
+}
+#pf-body input {
+  visibility: hidden;
+}
+
+#pf-body {
+  margin:24px 32px 0;
+  padding:0;
+  background-color: #ffffff;
+  color:#080000;
+  font-family: Arial, Georgia,Serif;
+  font-size: 14px;
+  line-height: 1.36;
+  cursor:default;
+  text-rendering: optimizelegibility;
+  zoom:1!important;
+}
+
+.pf-9{
+  font-size:70%;
+}
+.pf-10{
+  font-size:80%;
+}
+.pf-11 {
+  font-size:90%;
+}
+.pf-12 {
+  font-size:100%;
+}
+.pf-13 {
+  font-size:110%;
+}
+.pf-14 {
+  font-size:120%;
+}
+.pf-15 {
+  font-size:130%;
+}
+
+/* @group Title */
+
+#pf-body #pf-header-img {
+   max-height: 200px;
+   max-width:794px;
+   margin: 0px auto 8px auto;
+   display: block;
+   height: expression(this.height >= this.width && this.height > 200 ? 200 : true);
+   width: expression(this.height < this.width && this.width > 794 ? 794 : true);
+   float: none;/*hack because  custom styles should resolve later */
+}
+
+#pf-tagline {
+  text-align: center;
+ /* padding-bottom: 12px;*/
+  margin: 8px 0;
+  color: #b0b0b0;
+  /*border-bottom:1px solid #ddd;*/
+  font-size: 12px;
+}
+
+#pf-src{
+  height:auto;
+  width: 100%;
+  border-bottom:2px dashed #ddd;
+  /*overflow: auto;*/
+  color:#356da9;
+  padding-bottom: 6px;
+  font-size: 12px;
+  line-height: 16px;
+}
+a.pf-src-url{
+  color:#356da9;
+}
+
+#pf-body img#pf-src-icon{
+  float:left;
+  cursor: default;
+  margin: 0; /*only needed because css not specified to content. See if you can fix. */
+}
+
+.pf-src-name{
+  margin-left: 6px;
+  margin-right: 12px;
+  font-weight:bold;
+  display: block;
+  float: left;
+  cursor: default;
+}
+
+#pf-cust-header{
+  padding-bottom: 8px;
+  border-bottom:1px solid #222;
+}
+
+a.pf-src-url, a.pf-src-url:visited{
+  word-wrap: break-word;
+  display: block;
+  float: right;
+  text-decoration:none;
+  color:#356da9;
+  cursor: default;
+}
+
+#pf_author {
+  font-size: .85em;
+  color: hsl(0, 0%, 50%);
+  display: block;
+  margin: -1em 0 1em 0;
+  float: left;
+}
+#pf-date {
+  font-size: .85em;
+  color: hsl(0, 0%, 50%);
+  display: block;
+  margin: -1em 0 1em 0;
+  float: right;
+}
+
+#pf-body h1#pf-title{
+  font-size:165%;
+  margin: 1em 0;
+  clear: both; /*helps keep images with intended content*/
+}
+/* @end */
+h1, h2, h3, h4, h5, img, img.smallImage, img.mediumImage, img.blockImage, img.block, img.alignnone, .pf-caption, .pdf-body th, tr, td, .pdf-body li, .pdf-body a{
+  page-break-inside: avoid!important; /*avoids cutting header in half on page break for PDF*/
+}
+
+#pf-body h1{
+  font-size:140%;
+  margin:1em 0 .67em;
+  clear: both; /*helps keep images with intended content*/
+}
+
+#pf-body h2{
+  font-size:125%;
+  margin:1em 0 .67em;
+}
+
+#pf-body h3, #pf-body h4, #pf-body h5, #pf-body h6{
+  font-size: 115%;
+}
+
+#pf-body hr{
+  clear: both; /*helps keep images with intended content*/
+}
+
+#pf-body a, #pf-body a:visited{
+  color: #026ad9;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+#pf-body .print-footer{
+  display: block;
+  margin: 1em auto 0;
+}
+
+#pf-content {
+  clear:both;
+}
+
+#pf-content img {
+  float:right;
+  clear:right;
+  border:none;
+  display: inline-block;
+  margin:1em 0 1em 1.5em;
+}
+
+#pf-content img.blockImage, #pf-content img.block, #pf-content img.alignnone {
+  clear:both;
+  float: none;
+  display:block;
+  margin: 1.5em auto;
+  max-width: 100%;
+}
+
+#pf-content img.smallImage {
+  float: none;
+  border: none;
+  margin: 0.25em;
+  display: inline;
+}
+
+
+#pf-body ul, #pf-body ol{
+  list-style-position: outside!important; /*!important to support wkhtmltopdf */
+  margin: 1em 0 1em 1em;
+  padding: 0 1em;
+}
+
+#pf-body li{
+  margin:.5em 0;
+}
+
+#pf-body li img{
+  float:none; display:inline; margin-top:0; margin-bottom:0; /* prevents list items from being indented from floated images with margin.*/
+}
+#pf-body pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+#pf-body .pf-caption /*general*/{
+  /*margin:1.2em 0 1em 1em;*/
+  margin: .5em 1.5em;
+  padding: 8px 8px 16px;
+  float: right;
+  clear: both;
+  background-color: #f9f9f9;
+  border: 1px solid #B1A79B;
+  border-radius: 3px;
+  color: #838383;
+  font-size: 70%;
+  vertical-align: top;
+  max-width: 100%!important;
+}
+/*
+ * wkhtmltopdf 0.12.x version is very very slow when border-radius is set
+ * and when the document contains many captions
+ * https://github.com/wkhtmltopdf/wkhtmltopdf/issues/1994
+ * https://github.com/wkhtmltopdf/wkhtmltopdf/issues/1510
+ * https://groups.google.com/forum/#!topic/wkhtmltopdf-general/IZCgzfT7FBI
+ * TODO: check the performance for v0.13
+ */
+#pf-body.pdf-body .pf-caption {
+  border-radius: 0;
+}
+#pf-body .pf-caption img /*general*/{
+  margin: 0 0 8px;
+  float: none;
+}
+#pf-body .pf-caption.blockImage {
+  float: none;
+}
+#pf-body .wp-caption-text, #pf-body .tr-caption /*blogger*/, #pf-body .caption-text /*general*/{
+  margin: 0;
+  text-align: center;
+}
+#pf-body blockquote {
+  margin:2.5em;
+  padding:0 .75em;
+  border-left:2px solid #ccc;
+  font-style:italic;
+  color:#666;
+ }
+#pf-body td, #pf-body th{
+  width: auto!important;
+  padding: .5em;
+}
+#pf-body table {
+    font-size: 1em; /*Chrome has default font size of medium for tables*/
+    margin: 1em 0;
+    border-collapse:collapse;
+    border: none;
+    table-layout: auto;
+    width: auto!important; /*Overrides local style in case author sets width greater than print area*/
+    /*page-break-inside:avoid;*/
+    /*tables with long unbreaking text string */
+    /*table-layout: fixed;
+    word-wrap: break-word;
+    width: 100%;*/
+}
+#pf-body th {
+    font-weight: bold;
+    vertical-align: bottom;
+}
+#pf-body th[scope=row]{
+  vertical-align: top;
+}
+#pf-body tr {
+    border-bottom: 1px solid #ddd;
+}
+#pf-body td {
+    vertical-align: top;
+  }
+
+#pf-body tfoot {font-style:italic;}
+
+#pf-body pre {
+  width: auto;
+}
+
+/* HTML tag center is obsolete and will be deprecated.
+ * We do not need the effect of center tag in pf content and
+ * have disabled it via CSS */
+#pf-body center {
+  margin:0 !important; text-align: inherit !important;
+}
+
+/* @end */
+
+/* @group Print Styles */
+
+@media print {
+
+    #pf-mask{
+      background: transparent!important;
+    }
+    #pf-body {
+      padding: 0 5px 0 0!important; /*wkhtmltopdf bug - Fixes the missing text on right margin*/
+      margin: 0!important;
+      border: none!important;
+      background-color: none!important;
+    }
+      
+      #pf-body a, #pf-body a:pdf-download, #pf-body a:visited{
+        color: #356da9;
+        word-wrap: break-word;
+        text-decoration:none;
+      }
+      .hilight {
+        background-color:transparent;
+      }
+
+      .hilight:before {
+        display:none;
+      }
+      .page-break-before  {
+        page-break-before:always;
+      }
+      .page-break-after  {
+        page-break-after:always;
+      }
+    }
+
+/* @end */
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+  #pf-app {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+	

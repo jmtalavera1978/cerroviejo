@@ -1,0 +1,293 @@
+.products {}
+.products ul{ list-style-type: none;}
+.products ul li{ position:relative; padding:1px; border:solid 1px #dedede; float:left; width:215px; margin-top:5px; margin-right:5px; height:383px; overflow:hidden; }
+.products ul li.last{ margin-right:0; }
+
+
+form.catalogo{
+}
+
+table.tproducto tr td{
+	width:auto;
+	height: 38px;
+    vertical-align:center;
+	padding:0;
+	border:0px;
+	background:url(../img/infoP.png);
+}
+
+table.tbuscador tr td{
+	vertical-align: center;
+	border: 0px;
+	padding: 0px;
+	background-color: #EFEFEF;
+	padding: 5px;
+	vertical-align: center;
+	line-height: 18px;
+	color: #666;
+	padding: 5px 5px 5px 5px;
+	font-weight: bold;
+	top: 10px;
+	text-align: left;
+	font-size: 22px;
+	margin-bottom: 0;
+	margin-left: 5px;
+	margin-right: 0;
+	margin-top: 5px;
+	
+}
+.product-info{ position:absolute; width:210px; top:245px; left:0;}
+
+.product-noeco{ 
+position:absolute; 
+width:75px; 
+height: 40px;
+top:5px; 
+left:0;
+background:url(../img/infoP.png);
+}
+
+.product-oferta{ 
+position:absolute; 
+width:35px; 
+height: 35px;
+bottom:145px; 
+right:0;
+}
+
+.product-new{ 
+position:absolute; 
+width:35px; 
+height: 35px;
+top:5px; 
+right:0;
+}
+
+.product-list{ 
+position:absolute; 
+width:35px; 
+height: 35px;
+bottom:145px; 
+left:0;
+}
+
+.product-info h4{ font-weight: normal;}
+.product-info p{line-height:18px;  color:#000; padding:2px 0 5px 0;}
+.product-info .product-desc{ padding:2px; background:url(../img/infoP.png); width:210px; }
+.cl { font-size:0; line-height:0; clear:both; display:block; height:0; padding:0px;}
+.price {
+	font-size: 20px;
+	color: #809607;
+	font-weight: bold;
+}
+.nom_product { font-size:12px; line-height:14px; text-transform: uppercase; color:#000; font-weight: bold;margin: 0; padding: 0; top:10px; text-align:left}
+
+.resto_product { font-size:12px; line-height:14px; color:#000; font-weight:normal;margin: 0; padding: 0; text-align:left}
+.tit_product{ background:#99b30a; color:#fff; padding:6px 10px; }
+
+#cart { float:right; width:160px; top:0; right:0; height:51px; background:#8b0000; color:#fff; padding:13px 10px 0 10px; white-space:nowrap; line-height:20px;}
+a.cart-link { color:#fff; background:url(../img/cart-link.gif) no-repeat 0 0; padding:0 0 0 32px; text-decoration: none;}
+a.cart-link:hover { text-decoration: underline;}
+
+
+.box { padding:1px; border:solid 1px #dedede; margin-bottom:10px;}
+.box h2{ background:#7f7f7f; color:#fff; font-weight: normal; padding:0 5px; position:relative; height:27px; line-height:7px; }
+.box h2 span{ position:absolute; width:10px; height:5px; background:url(../img/h2-arr.gif); top:27px; right:10px; font-size:0; line-height:0;}
+.box-content { padding:2px;}
+.categories { min-height:383px; }
+.categories ul { list-style-type: none; font-size:15px;}
+.categories ul li{ border-bottom:dashed 1px #ccc; padding:5px 0;}
+.categories ul li a{ color:#5f5f5f; text-decoration: none; background:url(../img/cat.gif) no-repeat 0 4px; padding-left:17px;}
+.categories ul li a:hover{ color:#99b30a; }
+.categories ul li.last{ border-bottom:0; padding-bottom:0;}
+
+.categories ul li#novedadCat a{ color:#5f5f5f; text-decoration: none; background:url(../img/NEW_USER.png) no-repeat 0 4px; background-size: 15px 15px; padding-left:17px;}
+.categories ul li#ofertaCat a{ color:#5f5f5f; text-decoration: none; background:url(../img/OFERTA_USER.png) no-repeat 0 4px; background-size: 15px 15px; padding-left:17px;}
+
+ul.productos {
+ margin: 0;
+ padding: 0;
+}
+
+ul.productos-sub {
+ margin: 0px;
+ padding-left: 15px;
+}
+
+li.color_resaltado {
+ color: #A5C100;
+ font-weight: bold; 
+}
+
+li.subcategoria {
+	font-size:12px;
+}
+
+ul.categories {
+ margin: 0;
+ padding: 0;
+}
+
+/***********************
+ * Essential Structure *
+ ***********************/
+div.flexsearch--wrapper {
+	height: auto;
+	width: 130%;
+	max-width: 130%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+form.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+div.flexsearch--input-wrapper {
+	padding: 0 0px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+div.flexsearch {
+  padding: 0 5px 0 5px; /* Padding for other horizontal elements */
+}
+
+input.flexsearch--input {
+	  width: 85%;
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 40px;
+  padding: 0 46px 0 10px;
+	border-color: #888;
+  border-radius: 30px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 5px;
+  margin-top: 5px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+input.flexsearch--clean {
+  position: absolute;
+	right: -10px;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 40px;
+  padding: 0;
+  border: none;
+	margin-top: 0px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 38px;
+  line-height: 57px;
+}
+
+input.flexsearch--submit {
+  position: absolute;
+	right: 40px;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 40px;
+  padding: 0;
+  border: none;
+	margin-top: 0px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 38px;
+  line-height: 57px;
+}
+
+input.flexsearch--input:focus {
+  outline: none;
+  border-color: #A5C100;
+}
+
+input.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333;
+}
+
+form.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input.-moz-placeholder {
+  color: #888
+}
+
+/* Añadidos */
+#dialog-form {
+	font-size: 1rem; 
+	font-size: 1em;
+	font-family: Arial, sans-serif; 
+	word-wrap: normal;
+}
+
+#dialog-form table {
+	font-family: Arial, sans-serif; 
+	width: 100%;
+}
+
+#dialog-form input {
+	font-family: Arial, sans-serif; 
+    color: graytext;
+	background-color: #c1d0a9;
+	border: 1px dashed #c1d0a9; 
+	min-height: 30px;
+	max-height: 30px;
+	text-align: right;
+}
+
+#dialog-form  .miniboton {
+	font-size: 0.8rem;
+	font-size: 0.8em;
+    font-family: Arial, sans-serif;
+	/*height: 20px;
+	width: 20px;
+	min-height: 20px;
+	min-width: 20px;
+	max-height: 20px;
+	max-width: 20px;*/
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px 0px 0px 0px;
+}
+
+.imgcomprar {
+	border: 0px;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	min-height: 25px;
+	min-width: 25px;
+}
+
+.cabeceratabla {
+	background: rgba(0,0,0,0.15);
+	font-weight: bold;
+}
+
+.subtabla {
+	background-color: white;
+	font-weight: bold;
+}

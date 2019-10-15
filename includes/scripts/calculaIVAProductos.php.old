@@ -1,0 +1,16 @@
+<?php
+include("funciones.inc.php");
+compruebaSesionAdministracion();
+
+// En CSV
+$fp = fopen ( "APLICAR_IVA.csv" , "r" ); 
+while (( $data = fgetcsv ( $fp , 1000 , "," )) !== FALSE ) { // Mientras hay líneas que leer...
+	$idProducto = $data[0];
+	$iva = $data[1];
+	consulta ("UPDATE PRODUCTOS SET TIPO_IVA='$iva', IMPORTE_SIN_IVA=ROUND(((PRECIO*100)/($iva+100)), 2) where ID_PRODUCTO='$idProducto'");
+	consulta ("UPDATE PEDIDOS_PRODUCTOS SET TIPO_IVA='$iva', IMPORTE_SIN_IVA=IF(PRECIO_SIN_RECARGO>0, ROUND(((PRECIO_SIN_RECARGO*100)/($iva+100)), 2), ROUND(((PRECIO*100)/($iva+100)), 2)) where ID_PRODUCTO='$idProducto'");
+	echo "Actualizado IVA producto:$idProducto a $iva<br/>";
+} 
+fclose ( $fp ); 
+echo "Fin";
+?>

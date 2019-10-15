@@ -1,0 +1,36 @@
+<?php
+include_once ("funciones.inc.php");
+compruebaSesionRepartidorOAdministrador();
+
+actualizaRecargosPedidos();
+
+function actualizaRecargosPedidos() {
+	$error = 0;
+	$id_producto_actual = -1000;
+	$recargo_actual = 0;
+	$precio_prod_actual = -1;
+	
+	try {
+		$resProductos = consulta ("SELECT DISTINCT P.ID_PRODUCTO FROM PEDIDOS_PRODUCTOS P ORDER BY ID_PRODUCTO"); //where id_producto>917 
+
+
+		while ($pedidoProducto = extraer_registro($resProductos)) {
+			$id_producto = $pedidoProducto['ID_PRODUCTO'];
+			$recargo_actual = calculaRecargoProducto($id_producto);
+			$recargo_actual = $recargo_actual + 100;
+			
+			$upda = consulta ("UPDATE PEDIDOS_PRODUCTOS SET PRECIO_SIN_RECARGO=ROUND(((PRECIO*100)/(".$recargo_actual.")) ,2) WHERE ID_PRODUCTO='$id_producto'");
+			
+			echo "Nuevo precio sin recargo para $id_producto: Recargo ".$recargo_actual."<br>";
+		}
+	
+		$mensaje = "CORRECTO";
+
+	} catch (Exception $ex) {
+		//Devuelve el mensaje de error
+		$mensaje = $ex->qetMessage();
+	}
+	
+	echo $mensaje;
+}
+?>

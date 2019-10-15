@@ -1,0 +1,68 @@
+<?php
+include("funciones.inc.php");
+compruebaSesionAdministracion();
+
+$resultado = consulta("select * from PEDIDOS_PRODUCTOS where TIPO_IVA=0 ");
+
+$conexion = conectar();
+$error = 0;
+
+try {
+	
+	if ($conexion==FALSE) {
+		$error = 1;
+	}
+
+	while ($fila = extraer_registro($resultado)) {
+		$idPedido = $fila['ID_PEDIDO'];
+		$idProducto = $fila['ID_PRODUCTO'];
+		$precioFinal = $fila['PRECIO'];
+		$peso_por_unidad = $fila['PESO_POR_UNIDAD'];
+		$precioSinRecargo = $precioFinal;
+		$importeSinIVA = 0;
+		$tipoIVA = 0;
+		
+		echo "Precio final: $precioFinal<br/>";
+		
+		// Actualizar Recargo actual
+		$recargo_actual = calculaRecargoProductoConexion($idProducto, $conexion);
+		$recargo_actual = $recargo_actual + 100;
+		$upda = mysql_query ("UPDATE PEDIDOS_PRODUCTOS SET PRECIO_SIN_RECARGO=ROUND(((PRECIO*100)/(".$recargo_actual.")) ,2) WHERE ID_PEDIDO='$idPedido' and ID_PRODUCTO='$idProducto'", $conexion);
+		if (!$upda) {
+			$error = 1;
+		}
+		echo "Nuevo precio sin recargo para $idProducto: y pedido $idPedido, Recargo: ".($recargo_actual-100)."<br>";
+		
+		//Calculo IVA
+		$res2 = mysql_query("select TIPO_IVA from PRODUCTOS WHERE ID_PRODUCTO='$idProducto'", $conexion);
+		if (!$res2) {
+			$error = 1;
+		}
+		$iva = extraer_registro($res2);
+		$tipoIVA = $iva['TIPO_IVA'];
+		
+		//CALCULAR IMPORTES SIN IVA
+		$importeSinIVA = ((100 * $precioFinal) / (100 + $tipoIVA));
+		$importeSinIVA = round(((100 * $importeSinIVA) / ($recargo_actual)), 2);
+		$upda = mysql_query ("UPDATE PEDIDOS_PRODUCTOS SET TIPO_IVA='$tipoIVA', IMPORTE_SIN_IVA='$importeSinIVA'  WHERE ID_PEDIDO='$idPedido' and ID_PRODUCTO='$idProducto'", $conexion);
+		if (!$upda) {
+			$error = 1;
+		}
+		echo "Nuevo precio sin recargo ni iva para $idProducto: Precio inicial: ".$importeSinIVA.", tipoIVA: ".$tipoIVA.", recargo: ".($recargo_actual-100)."<br><br>";
+	}
+	
+	if ($error == 1) {
+		mysql_query("ROLLBACK", $conexion);
+		echo "ERROR";
+	} else {
+		mysql_query("COMMIT", $conexion);
+		echo "CORRECTO";
+	}
+} catch (Exception $ex) {
+	mysql_query("ROLLBACK", $conexion);
+	//Devuelve el mensaje de error
+	echo $ex->qetMessage();
+} 
+	
+@mysql_close($conexion);
+?>
